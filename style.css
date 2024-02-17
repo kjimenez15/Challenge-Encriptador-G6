@@ -4,33 +4,36 @@ header {
     align-items: center;
     color: white;
     background-color: black;
-    font-size: 48px;
+    font-size: 3vw;
     font-weight: bold;
-    padding: 20px 25px;
+    padding: 2vw 2.5vw;
 }
 
 body{
     background: #E3E3E3;
+    margin: 0;
 }
 
 .caja {
     display: inline-block;
     align-items: center;
-    margin-bottom: 10px;
-    padding: 20px 50px;
+    margin-bottom: 2vw; 
+    padding: 2vw 5vw; 
     vertical-align: top;
+    width: 35%;
+    max-width: 600px; 
 }
 
 .caja > * {
-    width: 100%; /* Cada área de texto ocupa el 40% del ancho */
-    margin-right: 10px; /* Espaciado entre las áreas de texto */
+    width: 100%;
+    margin-bottom: 2vw; 
 }
 
-label{
+label {
     display: block;
-    font-size: 20px;
+    font-size: 2vw; 
     font-weight: bold;
-    padding: 20px 0;
+    padding: 2vw 0; 
 }
 
 .area-texto{
@@ -39,14 +42,15 @@ label{
 
 .botones{
     display: block;
-    margin: 10px 0;
+    margin: 0.2vw 0;
 }
 
 .boton{
     border-radius: 5px;
-    size: 1em;
-    margin: 0 80px;
-    width: 100px;
+    width: 100%;
+    margin: 0.5vw 0; 
+    font-weight: bold;
+    font-size: 1vw; 
 }
 
 .boton:hover{
@@ -57,7 +61,9 @@ label{
 
 #boton-copiar{
     display: block;
-    margin: 10px 0;
+    margin: 0.5vw 0; 
     border-radius: 5px;
+    width: 100%;
+    font-size: 1vw; 
 }
 
